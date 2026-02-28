@@ -1,2 +1,214 @@
-// privacy policy for YAWA-PWS
-//
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>YAWA PWS Privacy Policy</title>
+  <meta name="description" content="Privacy Policy for YAWA PWS" />
+  <style>
+    :root{
+      color-scheme: light dark;
+      --bg: #0b0b0c;
+      --card: rgba(255,255,255,.06);
+      --text: rgba(255,255,255,.92);
+      --muted: rgba(255,255,255,.68);
+      --border: rgba(255,255,255,.14);
+      --link: #7cc4ff;
+      --max: 860px;
+    }
+    @media (prefers-color-scheme: light){
+      :root{
+        --bg: #f6f7f9;
+        --card: rgba(0,0,0,.04);
+        --text: rgba(0,0,0,.90);
+        --muted: rgba(0,0,0,.62);
+        --border: rgba(0,0,0,.12);
+        --link: #0b66ff;
+      }
+    }
+    *{ box-sizing: border-box; }
+    body{
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.55;
+      background: var(--bg);
+      color: var(--text);
+    }
+    header{
+      padding: 48px 16px 18px;
+      border-bottom: 1px solid var(--border);
+    }
+    .wrap{
+      max-width: var(--max);
+      margin: 0 auto;
+    }
+    h1{
+      margin: 0 0 10px;
+      font-size: 34px;
+      letter-spacing: -0.02em;
+    }
+    .meta{
+      color: var(--muted);
+      font-size: 14px;
+    }
+    main{
+      padding: 28px 16px 60px;
+    }
+    .card{
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 22px 20px;
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+    }
+    h2{
+      margin: 26px 0 10px;
+      font-size: 20px;
+      letter-spacing: -0.01em;
+    }
+    h2:first-of-type{ margin-top: 0; }
+    p{ margin: 10px 0; }
+    ul{
+      margin: 10px 0 10px 20px;
+      padding: 0;
+    }
+    li{ margin: 6px 0; }
+    a{ color: var(--link); text-decoration: none; }
+    a:hover{ text-decoration: underline; }
+    hr{
+      border: 0;
+      border-top: 1px solid var(--border);
+      margin: 22px 0;
+    }
+    .small{
+      font-size: 14px;
+      color: var(--muted);
+    }
+    .contact{
+      white-space: pre-line;
+      color: var(--muted);
+    }
+    .badge{
+      display: inline-block;
+      font-size: 12px;
+      padding: 3px 10px;
+      border-radius: 999px;
+      border: 1px solid var(--border);
+      color: var(--muted);
+      margin-left: 8px;
+      vertical-align: middle;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <h1>
+        YAWA PWS Privacy Policy
+        <span class="badge">App</span>
+      </h1>
+      <div class="meta"><strong>Effective Date:</strong> <span id="effective-date">[Insert Date]</span></div>
+    </div>
+  </header>
+
+  <main>
+    <div class="wrap">
+      <div class="card">
+        <p>
+          YAWA PWS ("the App") respects your privacy. This Privacy Policy explains what information the App collects,
+          how it is used, and how it is stored.
+        </p>
+
+        <h2>1. Information Collected</h2>
+        <p>YAWA PWS does <strong>not</strong> collect, store, transmit, or share personal information.</p>
+        <p>The App does not require user accounts and does not track users.</p>
+
+        <p><strong>The App stores the following locally on your device:</strong></p>
+        <ul>
+          <li><strong>Station ID</strong> (entered by you)</li>
+          <li><strong>Weather.com API Key</strong> (entered by you)</li>
+          <li>App preferences (units, appearance mode, display mode)</li>
+        </ul>
+
+        <p>This information is stored only on your device:</p>
+        <ul>
+          <li>The API key is stored securely in the iOS Keychain.</li>
+          <li>Other preferences are stored using standard iOS local storage (UserDefaults).</li>
+        </ul>
+
+        <p>This information is never transmitted to the developer.</p>
+
+        <h2>2. Weather Data</h2>
+        <p>The App retrieves weather data from:</p>
+        <ul>
+          <li><strong>Weather.com / Weather Underground (PWS API)</strong></li>
+        </ul>
+
+        <p>
+          Requests are made directly from your device to Weather.com’s servers using your API key.
+          The developer does not proxy, intercept, or store this data.
+        </p>
+
+        <p>Weather.com may process requests according to their own privacy policies.</p>
+        <p>
+          You can review Weather.com’s privacy policy here:
+          <a href="https://www.weather.com/en-US/privacy-policy" rel="noopener noreferrer" target="_blank">
+            https://www.weather.com/en-US/privacy-policy
+          </a>
+        </p>
+
+        <h2>3. Data Sharing</h2>
+        <p>YAWA PWS:</p>
+        <ul>
+          <li>Does not sell data</li>
+          <li>Does not share data</li>
+          <li>Does not use analytics frameworks</li>
+          <li>Does not include advertising</li>
+          <li>Does not use tracking SDKs</li>
+        </ul>
+
+        <p>
+          No personal data leaves your device except for requests made directly to Weather.com for weather retrieval.
+        </p>
+
+        <h2>4. Data Retention</h2>
+        <p>All stored information remains on your device until:</p>
+        <ul>
+          <li>You delete it</li>
+          <li>You clear the API key</li>
+          <li>You uninstall the App</li>
+        </ul>
+        <p>Uninstalling the App removes all locally stored data.</p>
+
+        <h2>5. Security</h2>
+        <p>The API key is stored securely using iOS Keychain services.</p>
+        <p>No cloud storage or external servers are used by the App.</p>
+
+        <h2>6. Children’s Privacy</h2>
+        <p>
+          YAWA PWS does not knowingly collect any personal information from children under 13.
+          Since the App does not collect personal information, it complies with COPPA requirements.
+        </p>
+
+        <h2>7. Changes to This Policy</h2>
+        <p>
+          This Privacy Policy may be updated if the App’s data practices change.
+          Updates will be reflected by revising the Effective Date above.
+        </p>
+
+        <h2>8. Contact</h2>
+        <p class="contact">
+[Your Name or Business Name]
+[Optional Email Address]
+        </p>
+
+        <hr />
+        <p class="small">
+          Tip: Replace <strong>[Insert Date]</strong> and the Contact section before publishing.
+        </p>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
